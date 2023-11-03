@@ -58,7 +58,6 @@ public class LottoApplication {
                 WinningTableRow row = engine.checkBet(winningBet, bet);
 
                 if (Objects.nonNull(row)) {
-                    f
                     log(row.toString());
                     mainWin = row.isMainWin();
                     hitCounter++;
